@@ -81,7 +81,7 @@ router.get('/analyze', async (req, res) => {
     }
 });
 
-router.get('/analyzee', async (req, res) => {
+router.get('/search', async (req, res) => {
     try {
         const searchParagraph = req.query.paragraph;
 
