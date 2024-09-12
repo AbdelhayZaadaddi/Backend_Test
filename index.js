@@ -11,7 +11,7 @@ require('./db/connection');
 
 // Define a route
 app.get('/', (req, res) => {
-    res.send('Hello, Express!');
+    res.send('Welcom to the rest api app!');
 });
 
 // Article Routes
